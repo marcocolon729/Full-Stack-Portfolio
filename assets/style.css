@@ -31,8 +31,6 @@ nav ul li {
 }
 
 nav a {
-    display: flex;
-    align-items: end;
     text-decoration: none;
     color: #fff;
 }
