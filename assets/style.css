@@ -41,17 +41,27 @@ nav a:hover{
 }
 /* Style the sections */
 .section {
-    background-color: #fff;
+    background-color:gray;
     padding: 40px 0;
+}
+
+.section:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
 }
 
 /* Style the portfolio items */
 .portfolio-item {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
-    background-color: #fff;
+    border: 1px solid gray;
+    background-color: gray;
     text-align: center;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-item img {
@@ -60,8 +70,8 @@ nav a:hover{
 
 /* Style the footer */
 footer {
-    background-color: black;
-    color: #fff;
+    background-color:gray;
+    color:black;
     text-align: center;
     padding: 10px 0;
 }
