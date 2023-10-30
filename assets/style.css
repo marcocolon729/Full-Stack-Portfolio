@@ -39,7 +39,9 @@ nav a:hover{
     background-color: black;
     color:purple;
 }
+
 /* Style the sections */
+
 .section {
     background-color:gray;
     padding: 40px 0;
@@ -48,6 +50,15 @@ nav a:hover{
 .section:hover{
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+.image-of-me{
+    float: right;
+    margin-right: 20px;
+}
+.image-of-me img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
 
 /* Style the portfolio items */
@@ -68,10 +79,3 @@ nav a:hover{
     max-width: 100%;
 }
 
-/* Style the footer */
-footer {
-    background-color:gray;
-    color:black;
-    text-align: center;
-    padding: 10px 0;
-}
